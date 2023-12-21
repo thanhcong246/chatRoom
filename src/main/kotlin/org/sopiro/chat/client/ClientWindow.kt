@@ -37,7 +37,7 @@ class ClientWindow(title: String) : Client()
     private val rowData = Vector<Vector<String>>()
     private lateinit var roomData: List<Room>
 
-    private var serverIP = "192.168.1.15"
+    private var serverIP = ""
     private var serverPort = 1234
     private var myPort = 5678
     private var isServerOnline: Boolean = false
